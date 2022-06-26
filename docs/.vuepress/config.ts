@@ -65,12 +65,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '相关资源',
+        text: 'Resources',
         link: '/source/',
         items: [ 
           { text: 'Robot', link: '/pages/e7f6c7/' },
-          { text: '论文检索', link: '/pages/eee83a9211a70f9d/' },
-          { text: '社区交流', link: '/pages/12df8ace52d493f6/' },
         ],
       },
       { text: '关于', link: '/about/' },
