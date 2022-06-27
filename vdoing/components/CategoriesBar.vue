@@ -109,6 +109,6 @@ export default {
         padding-left 0.8rem
         border-radius 1px
         border-color transparent
-.theme-mode-dark .categories-wrapper .categories a:not(.active):hover, .theme-mode-read .categories-wrapper .categories a:not(.active):hover
+.theme-mode-light .categories-wrapper .categories a:not(.active):hover, .theme-mode-read .categories-wrapper .categories a:not(.active):hover
   background var(--customBlockBg)
 </style>
