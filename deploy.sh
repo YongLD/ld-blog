@@ -4,27 +4,27 @@
 set -e
 
 # 生成静态文件
-npm run build
+yarn build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'b.xugaoyi.com' > CNAME
+# echo 'b.ldy.com' > CNAME
 
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:YongLD/ld-blog.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://YongLD:${GITHUB_TOKEN}@github.com/YongLD/ld-blog.git
-  git config --global user.name "YongLD"
-  git config --global user.email "1803228484@qq.com"
-fi
+# if [ -z "$GITHUB_TOKEN" ]; then
+#   msg='deploy'
+#   githubUrl=git@github.com:YongLD/ld-blog.git
+# else
+#   msg='来自github actions的自动部署'
+#   githubUrl=https://YongLD:${GITHUB_TOKEN}@github.com/YongLD/ld-blog.git
+#   git config --global user.name "YongLD"
+#   git config --global user.email "1803228484@qq.com"
+# fi
 git init
 git add -A
-git commit -m "${msg}"
-git push -f $githubUrl main:gh-pages # 推送到github gh-pages分支
+git commit -m "Deploy"
+git push -f git@github.com:YongLD/ld-blog.git main:gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
@@ -40,4 +40,3 @@ git push -f $githubUrl main:gh-pages # 推送到github gh-pages分支
 # git push -f $codingUrl master # 推送到coding
 
 cd -
-rm -rf docs/.vuepress/dist
