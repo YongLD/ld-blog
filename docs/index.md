@@ -14,7 +14,7 @@ features: # 可选的
     link: /issue/
     imgUrl: /img/robotissue.gif
   - title: MMML AI
-    details: MultiModal Machine Learning 多模态学习应用
+    details: MultiModal Machine Learning 多模态应用
     link: /mmml/
     imgUrl: /img/robot1.gif
   - title: CV AI

@@ -53,16 +53,26 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: 'MMML AI',
         link: '/technology/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+         {
+          text: '多模态应用',
+          items:[
+            { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+            { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+          ]
+         } 
         ],
       },
       {
         text: 'CV AI',
         link: '/more/',
         items: [
-          { text: '实用技巧', link: '/pages/baaa02/' },
-          { text: '友情链接', link: '/friends/' },
+          {
+            text: '视觉应用',
+            items:[
+              { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+              { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+            ]
+           } 
         ],
       },
       {
@@ -107,7 +117,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/sence2.jpg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0.1~1.0, 默认0.5
-    bodyBgImgInterval: 10, // body多张背景图时的切换间隔, 默认15，单位s
+    bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
