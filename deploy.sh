@@ -6,6 +6,10 @@ set -e
 # 生成静态文件
 yarn run build
 
+git add -A
+git commit -m "Deploy to GitPages"
+git push -f git@github.com:YongLD/ld-blog.git
+
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
