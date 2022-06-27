@@ -6,6 +6,7 @@ tagline: 属于人机共融的世界已到来，此篇献给为了HUMAN和ROBOT�
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+pageClass: vdoing-index-class
 
 features: # 可选的
   - title: Robot Issue
@@ -85,3 +86,78 @@ features: # 可选的
 - **GitHub**: <https://github.com/xugaoyi>
 
 </br>  -->
+
+<ClientOnly>
+  <WebInfo />
+  <IndexBigImg />
+  <Fantasy />
+</ClientOnly>
+
+<script>
+// 已经不再使用
+/*
+触发全屏相关的代码
+export default {
+  mounted() {
+    this.fullScreen();
+    // 监听滚动
+    window.addEventListener('scroll', () => {
+      const index_class = document.getElementsByClassName('vdoing-index-class')[0];
+      if(index_class){
+        if(document.documentElement.scrollTop == 0){
+          this.fullScreen();
+        }else{
+          this.exitScreen();
+        }
+      }
+   });
+  },
+  watch: {
+    $route(to, from) {
+      if (to.path == "/" && Object.keys(this.$route.query).length == 0) {
+       // 监听滚动
+        window.addEventListener('scroll', () => {
+          if(document.documentElement.scrollTop == 0){
+            this.fullScreen();
+          }else{
+            this.exitScreen();
+          }
+        });
+        this.fullScreen();
+      }
+    },
+  },
+  methods: {
+    // 进入全屏
+    fullScreen() {
+      var el = document.documentElement;
+      var rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen;
+      if (rfs) {
+        rfs.call(el);
+      } else if (typeof window.ActiveXObject !== "undefined") {
+        // for IE，这里其实就是模拟了按下键盘的 F11，使浏览器全屏
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript != null) {
+          wscript.SendKeys("{F11}");
+        }
+      }
+    },
+    // 退出全屏
+    exitScreen() {
+      var el = document;
+      var cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen;
+      if (cfs) {
+        cfs.call(el);
+      } else if (typeof window.ActiveXObject !== "undefined") {
+        // for IE，这里和 fullScreen 相同，模拟按下 F11 键退出全屏
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript != null) {
+          wscript.SendKeys("{F11}");
+        }
+      }
+    }
+  },
+}
+*/
+
+</script>
