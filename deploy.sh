@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-yarn build
+yarn run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -21,7 +21,7 @@ cd docs/.vuepress/dist
 #   git config --global user.name "YongLD"
 #   git config --global user.email "1803228484@qq.com"
 # fi
-# git init
+git init
 git add -A
 git commit -m "Deploy"
 git push -f git@github.com:YongLD/ld-blog.git main:gh-pages # 推送到github gh-pages分支
