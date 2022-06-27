@@ -40,3 +40,4 @@ git push -f git@github.com:YongLD/ld-blog.git main:gh-pages # 推送到github gh
 # git push -f $codingUrl master # 推送到coding
 
 cd -
+rm -rf docs/.vuepress/dist
