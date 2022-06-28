@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: ROBOTIC LD
+heroText: HUMAN-ROBOT
 tagline: 属于人机共融的世界已到来，此篇献给为了HUMAN和ROBOT付出全部心血的你。
 # actionText: 立刻进入 →
 # actionLink: /web/

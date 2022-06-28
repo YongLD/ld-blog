@@ -35,10 +35,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '常见问题',
             items: [
-              { text: 'BAXTER', link: '/pages/8143cc480faf9a11/' },
+              { text: 'CommonIssue', link: '/note/commonissue/' },
+              { text: 'BAXTER', link: '/note/baxter/' },
               { text: 'UR10', link: '/pages/8143cc480faf9a11/' },
               { text: 'AMR', link: '/pages/8143cc480faf9a11/' },
-              { text: 'Manipulator', link: '/pages/8143cc480faf9a11/' },
+              { text: 'Manipulator', link: '/note/manipulator/' },
             ],
           },
           {
@@ -117,7 +118,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/sence2.jpg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0.1~1.0, 默认0.5
-    bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
+    bodyBgImgInterval: 60, // body多张背景图时的切换间隔, 默认15，单位s
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
