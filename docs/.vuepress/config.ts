@@ -29,7 +29,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '首页', link: '/' },
       {
         text: 'Robot Issue',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/robotissue/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
@@ -37,8 +37,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'CommonIssue', link: '/note/commonissue/' },
               { text: 'BAXTER', link: '/note/baxter/' },
-              { text: 'UR10', link: '/pages/8143cc480faf9a11/' },
-              { text: 'AMR', link: '/pages/8143cc480faf9a11/' },
+              { text: 'UR10', link: '/note/urarm/' },
+              { text: 'AMR', link: '/note/amr/' },
               { text: 'Manipulator', link: '/note/manipulator/' },
             ],
           },
@@ -52,7 +52,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: 'MMML AI',
-        link: '/technology/',
+        link: '/mmml/',
         items: [
          {
           text: '多模态应用',
@@ -65,7 +65,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: 'CV AI',
-        link: '/more/',
+        link: '/cvai/',
         items: [
           {
             text: '视觉应用',
