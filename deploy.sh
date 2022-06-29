@@ -14,7 +14,7 @@ git push
 cd docs/.vuepress/dist
 
 # deploy to github pages
-# echo 'b.ldy.com' > CNAME
+echo 'www.robothuman.cn' > CNAME
 
 # if [ -z "$GITHUB_TOKEN" ]; then
 #   msg='deploy'

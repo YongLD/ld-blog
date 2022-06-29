@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: HUMAN-ROBOT
-tagline: 属于人机共融的世界已到来，此篇献给为了HUMAN和ROBOT付出全部心血的你。
+tagline: 属于人机共融的世界已到来，此篇献给为了HUMAN和ROBOT付出全部心血的你。—— YongLD
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
