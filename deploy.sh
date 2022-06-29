@@ -7,7 +7,7 @@ set -e
 yarn run build
 
 git add -A
-git commit -m "Deploy to GitPages"
+git commit -m "Modify README.MD"
 git push
 
 # 进入生成的文件夹
