@@ -7,7 +7,7 @@ set -e
 yarn run build
 
 git add -A
-git commit -m "Fix baxter.md"
+git commit -m "Deploy to GitPages"
 git push
 
 # 进入生成的文件夹

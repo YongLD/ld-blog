@@ -12,15 +12,15 @@ features: # 可选的
   - title: Robot Issue
     details: 机器人技术文档、教程和总结等
     link: /issue/
-    imgUrl: /img/robotissue.gif
+    imgUrl: https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/robotissue.gif
   - title: MMML AI
     details: MultiModal Machine Learning 多模态应用
     link: /mmml/
-    imgUrl: /img/robot1.gif
+    imgUrl: https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/robot1.gif
   - title: CV AI
     details: Computer Vision 计算机视觉应用
     link: /cvai/ # 可选
-    imgUrl: /img/cvrobot.gif # 可选
+    imgUrl: https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/cvrobot.gif # 可选
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
