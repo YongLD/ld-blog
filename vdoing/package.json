@@ -1,17 +1,17 @@
 {
-  "name": "vuepress-theme-vdoing",
+  "name": "human-robot-blog",
   "version": "1.12.3",
-  "description": "Vdoing theme for VuePress. 一个基于VuePress的知识管理兼博客主题。",
+  "description": "Human-Robot-Blog，关于人机共融的资源网站",
   "author": {
-    "name": "gaoyi(Evan) Xu"
+    "name": "YongLD"
   },
-  "homepage": "https://github.com/xugaoyi/vuepress-theme-vdoing#readme",
+  "homepage": "https://github.com/YongLD/ld-blog#readme",
   "bugs": {
-    "url": "https://github.com/xugaoyi/vuepress-theme-vdoing/issues"
+    "url": "https://github.com/YongLD/ld-blog/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xugaoyi/vuepress-theme-vdoing.git"
+    "url": "git+https://github.com/YongLD/ld-blog.git"
   },
   "keywords": [
     "documentation",
@@ -25,8 +25,8 @@
   "main": "index.js",
   "maintainers": [
     {
-      "name": "Evan xu",
-      "email": "894072666@qq.com"
+      "name": "YongLD",
+      "email": "1803228484@qq.com"
     }
   ],
   "dependencies": {

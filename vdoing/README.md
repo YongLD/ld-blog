@@ -1,7 +1,7 @@
-# vuepress-theme-vdoing
+# Human-Robot-Blog
 
-vuepress-theme-vdoing for vuepress
+Human Robot Blog
 
-一个基于VuePress的 知识管理兼博客 主题。
+关于人机共融的资源网站.
 
-[More](https://github.com/xugaoyi/vuepress-theme-vdoing#readme).
+[More](https://github.com/YongLD/ld-blog#readme).

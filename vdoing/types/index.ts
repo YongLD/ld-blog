@@ -4,7 +4,7 @@ type NoSidebar4DefaultThemeConfig = Omit<DefaultThemeConfig, 'sidebar'> // 忽�
 
 /**
  * Vdoing主题配置类型
- * @see https://doc.xugaoyi.com/
+ * @see https://yongld.github.io/ld-blog/
  */
 export interface VdoingThemeConfig extends NoSidebar4DefaultThemeConfig {
   /**
