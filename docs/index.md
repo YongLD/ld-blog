@@ -10,8 +10,8 @@ pageClass: vdoing-index-class
 
 features: # 可选的
   - title: Robot Issue
-    details: 机器人技术文档、教程和总结等
-    link: /issue/
+    details: 机器人技术文档、教程和总结
+    link: /robotissue/
     imgUrl: https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/robotissue.gif
   - title: MMML AI
     details: MultiModal Machine Learning 多模态应用

@@ -1,4 +1,4 @@
-<p align="center"><a href="https://yongld.github.io/ld-blog/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/robotissue.gif" alt="logo"></a></p>
+<p align="center"><a href="https://robothuman.cn/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://cdn.jsdelivr.net/gh/YongLD/ld-blog@main/docs/.vuepress/public/img/robotissue.gif" alt="logo"></a></p>
 
 <p align="center">
   <a href="https://github.com/YongLD/ld-blog/actions?query=workflow%3AbaiduPush"><img src="https://github.com/YongLD/ld-blog/workflows/baiduPush/badge.svg" alt="baiduPush"></a>
@@ -9,7 +9,7 @@
 <h2 align="center">Human-Robot</h2>
 
  [文档](https://github.com/YongLD/ld-blog/blob/main/README.MD)  |
- [网站](https://yongld.github.io/ld-blog/)  
+ [网站](https://robothuman.cn/)  
 
 <!-- ## 部署
 [![](https://cloudbase.net/deploy-en.svg)](https://console.cloud.tencent.com/webify/new?tpl=https%3A%2F%2Fgithub.com%2FYongLD%2Fld-blog&reponame=BLOG) -->
